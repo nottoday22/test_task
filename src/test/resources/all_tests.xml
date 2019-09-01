@@ -1,27 +1,26 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TestAll">
-    <test name="all">
+<suite name="All_tests">
+    <test name="all_tests">
         <classes>
-            <class name="SmallLettersInBearTypeField" />
+            <class name="ValidGetRequest"/>
             <class name="AddOneMoreField"/>
             <class name="CapitalLetterInField"/>
-            <class name="ChangeBearNameWithPutRequest"/>
-            <class name="DeleteNonExistentBear"/>
-            <class name="DeleteRequestWithoutID"/>
             <class name="EmptyBearType"/>
-            <class name="EmptyValuesInAllFields"/>
             <class name="InvalidDataBearAge"/>
             <class name="InvalidValueInBearType"/>
             <class name="PostRequestWithIdInUrl"/>
-            <class name="PutRequestForNonExistentBear"/>
+            <class name="ValidPostRequest"/>
+            <class name="WrongNameOfFieldUsingPostRequest"/>
             <class name="SmallLettersInBearTypeField"/>
             <class name="UseOnlySpacesInValuesOfFields"/>
-            <class name="ValidGetRequest"/>
             <class name="WrongDataBearType"/>
-            <class name="ValidPostRequest"/>
+            <class name="ChangeBearNameWithPutRequest"/>
+            <class name="EmptyValuesInAllFields"/>
+            <class name="PutRequestForNonExistentBear"/>
             <class name="WrongFieldNameBearName"/>
-            <class name="WrongNameOfFieldUsingPostRequest"/>
             <class name="WrongNameOfFieldBearAgeUsingPutRequest"/>
+            <class name="DeleteNonExistentBear"/>
+            <class name="DeleteRequestWithoutID"/>
         </classes>
     </test>
 </suite>

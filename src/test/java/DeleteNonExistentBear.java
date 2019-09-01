@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import utils.BearClient;
 
 public class DeleteNonExistentBear {
+
     @Test(description = "We haven't bear/9933.")
     public void deleteNonExistentBear() {
         RequestSpecification request = BearClient.bearClient();
