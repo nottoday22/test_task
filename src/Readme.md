@@ -29,6 +29,6 @@ To run tests i prefer to use "profiles", there are 5 suites that u can run:
 
 If you want to run them you should just write:
 
-mvn test -P Delete_requests   (for example)
+mvn test -P DeleteRequest   (for example)
 
 That's all, thank you.

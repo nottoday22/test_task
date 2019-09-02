@@ -20,15 +20,19 @@ mvn --version
 
 Ok, we have maven and we can try to start out tests.
 
-To run tests i prefer to use "profiles", there are 5 suites that u can run:
-1. all_tests
-2. delete_requests
-3. get_requests
-4. post_requests
-5. put_requests
+To run tests i prefer to use "profiles", there are 5 id profiles which will start tests:
+1. DeleteRequests
+2. PutRequests
+3. PostRequests
+4. GetRequests
+5. AllTests
 
 If you want to run them you should just write:
 
-mvn test -P Delete_requests   (for example)
+mvn test -P DeleteRequests
+mvn test -P PostRequests
+mvn test -P PutRequests
+mvn test -P GetRequests
+mvn test -P AllTests
 
 That's all, thank you.
