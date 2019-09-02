@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.437" tests="19" errors="0" skipped="0" failures="17">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/vova/IdeaProjects/test_task/target/test-classes:/home/vova/IdeaProjects/test_task/target/classes:/home/vova/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/home/vova/.m2/repository/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar:/home/vova/.m2/repository/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy/2.4.4/groovy-2.4.4.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.4/groovy-xml-2.4.4.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/home/vova/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/vova/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/vova/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/vova/.m2/repository/com/jayway/restassured/json-path/2.9.0/json-path-2.9.0.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy-json/2.4.4/groovy-json-2.4.4.jar:/home/vova/.m2/repository/com/jayway/restassured/rest-assured-common/2.9.0/rest-assured-common-2.9.0.jar:/home/vova/.m2/repository/com/jayway/restassured/xml-path/2.9.0/xml-path-2.9.0.jar:/home/vova/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/home/vova/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/home/vova/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/vova/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/home/vova/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/home/vova/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/vova/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/vova/IdeaProjects/test_task/target/surefire/surefirebooter5268854575816425307.jar /home/vova/IdeaProjects/test_task/target/surefire 2019-08-30T13-34-01_622-jvmRun1 surefire3004875895569616369tmp surefire_04085410433591720742tmp"/>
+    <property name="surefire.test.class.path" value="/home/vova/IdeaProjects/test_task/target/test-classes:/home/vova/IdeaProjects/test_task/target/classes:/home/vova/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/home/vova/.m2/repository/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar:/home/vova/.m2/repository/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy/2.4.4/groovy-2.4.4.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.4/groovy-xml-2.4.4.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/home/vova/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/vova/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/vova/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/home/vova/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/vova/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/vova/.m2/repository/com/jayway/restassured/json-path/2.9.0/json-path-2.9.0.jar:/home/vova/.m2/repository/org/codehaus/groovy/groovy-json/2.4.4/groovy-json-2.4.4.jar:/home/vova/.m2/repository/com/jayway/restassured/rest-assured-common/2.9.0/rest-assured-common-2.9.0.jar:/home/vova/.m2/repository/com/jayway/restassured/xml-path/2.9.0/xml-path-2.9.0.jar:/home/vova/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/home/vova/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/home/vova/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/vova/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/home/vova/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/home/vova/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/vova/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vova"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/vova/IdeaProjects/test_task"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/vova/IdeaProjects/test_task/target/surefire/surefirebooter5268854575816425307.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10"/>
+    <property name="user.name" value="vova"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-58-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vova/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_222"/>
+    <property name="user.dir" value="/home/vova/IdeaProjects/test_task"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.222-b10"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="validGetRequest" classname="ValidGetRequest" time="0.062"/>
+  <testcase name="addOneMoreFieldInPostRequest" classname="AddOneMoreField" time="0.079">
+    <failure message="expected [405] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: expected [405] but found [200]
+	at AddOneMoreField.addOneMoreFieldInPostRequest(AddOneMoreField.java:21)
+</failure>
+  </testcase>
+  <testcase name="capitalLetterInField" classname="CapitalLetterInField" time="0.053">
+    <failure message="expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [200]
+	at CapitalLetterInField.capitalLetterInField(CapitalLetterInField.java:20)
+</failure>
+  </testcase>
+  <testcase name="emptyBearType" classname="EmptyBearType" time="0.096">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at EmptyBearType.emptyBearType(EmptyBearType.java:20)
+</failure>
+  </testcase>
+  <testcase name="invalidDataBearAge" classname="InvalidDataBearAge" time="0.056">
+    <failure message="expected [405] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [405] but found [500]
+	at InvalidDataBearAge.invalidDataBearAge(InvalidDataBearAge.java:22)
+</failure>
+  </testcase>
+  <testcase name="invalidValueInBearType" classname="InvalidValueInBearType" time="0.038">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at InvalidValueInBearType.invalidValueInBearType(InvalidValueInBearType.java:20)
+</failure>
+  </testcase>
+  <testcase name="postRequestWithIdInUrl" classname="PostRequestWithIdInUrl" time="0.035">
+    <failure message="expected [405] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [405] but found [404]
+	at PostRequestWithIdInUrl.postRequestWithIdInUrl(PostRequestWithIdInUrl.java:20)
+</failure>
+  </testcase>
+  <testcase name="validPostRequest" classname="ValidPostRequest" time="0.022"/>
+  <testcase name="wrongNameOfFielBearTypedUsingPostRequest" classname="WrongNameOfFieldUsingPostRequest" time="0.056">
+    <failure message="expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [200]
+	at WrongNameOfFieldUsingPostRequest.wrongNameOfFielBearTypedUsingPostRequest(WrongNameOfFieldUsingPostRequest.java:20)
+</failure>
+  </testcase>
+  <testcase name="smallLettersInBearTypeField" classname="SmallLettersInBearTypeField" time="0.017">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at SmallLettersInBearTypeField.smallLettersInBearTypeField(SmallLettersInBearTypeField.java:23)
+</failure>
+  </testcase>
+  <testcase name="useOnlySpaces" classname="UseOnlySpacesInValuesOfFields" time="0.048">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at UseOnlySpacesInValuesOfFields.useOnlySpaces(UseOnlySpacesInValuesOfFields.java:20)
+</failure>
+  </testcase>
+  <testcase name="wrongDataBearType" classname="WrongDataBearType" time="0.031">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at WrongDataBearType.wrongDataBearType(WrongDataBearType.java:20)
+</failure>
+  </testcase>
+  <testcase name="changeBearNameWithPutRequest" classname="ChangeBearNameWithPutRequest" time="0.049">
+    <failure message="expected [200] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [500]
+	at ChangeBearNameWithPutRequest.changeBearNameWithPutRequest(ChangeBearNameWithPutRequest.java:20)
+</failure>
+  </testcase>
+  <testcase name="noValuesInFields" classname="EmptyValuesInAllFields" time="0.042">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at EmptyValuesInAllFields.noValuesInFields(EmptyValuesInAllFields.java:20)
+</failure>
+  </testcase>
+  <testcase name="nonExistentBear" classname="PutRequestForNonExistentBear" time="0.068">
+    <failure message="expected [404] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [404] but found [500]
+	at PutRequestForNonExistentBear.nonExistentBear(PutRequestForNonExistentBear.java:20)
+</failure>
+  </testcase>
+  <testcase name="wrongFieldNameBearName" classname="WrongFieldNameBearName" time="0.021">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at WrongFieldNameBearName.wrongFieldNameBearName(WrongFieldNameBearName.java:20)
+</failure>
+  </testcase>
+  <testcase name="wrongNameOfFielBearAgedUsingPutRequest" classname="WrongNameOfFieldBearAgeUsingPutRequest" time="0.022">
+    <failure message="expected [400] but found [500]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [500]
+	at WrongNameOfFieldBearAgeUsingPutRequest.wrongNameOfFielBearAgedUsingPutRequest(WrongNameOfFieldBearAgeUsingPutRequest.java:20)
+</failure>
+  </testcase>
+  <testcase name="deleteNonExistentBear" classname="DeleteNonExistentBear" time="0.019">
+    <failure message="expected [404] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: expected [404] but found [200]
+	at DeleteNonExistentBear.deleteNonExistentBear(DeleteNonExistentBear.java:21)
+</failure>
+  </testcase>
+  <testcase name="deleteRequestWithoutID" classname="DeleteRequestWithoutID" time="0.019">
+    <failure message="expected [400] but found [200]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [200]
+	at DeleteRequestWithoutID.deleteRequestWithoutID(DeleteRequestWithoutID.java:20)
+</failure>
+  </testcase>
+</testsuite>

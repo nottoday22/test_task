@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 4.437 s <<< FAILURE! - in TestSuite
+addOneMoreFieldInPostRequest(AddOneMoreField)  Time elapsed: 0.079 s  <<< FAILURE!
+java.lang.AssertionError: expected [405] but found [200]
+	at AddOneMoreField.addOneMoreFieldInPostRequest(AddOneMoreField.java:21)
+
+capitalLetterInField(CapitalLetterInField)  Time elapsed: 0.053 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at CapitalLetterInField.capitalLetterInField(CapitalLetterInField.java:20)
+
+emptyBearType(EmptyBearType)  Time elapsed: 0.096 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at EmptyBearType.emptyBearType(EmptyBearType.java:20)
+
+invalidDataBearAge(InvalidDataBearAge)  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: expected [405] but found [500]
+	at InvalidDataBearAge.invalidDataBearAge(InvalidDataBearAge.java:22)
+
+invalidValueInBearType(InvalidValueInBearType)  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at InvalidValueInBearType.invalidValueInBearType(InvalidValueInBearType.java:20)
+
+postRequestWithIdInUrl(PostRequestWithIdInUrl)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: expected [405] but found [404]
+	at PostRequestWithIdInUrl.postRequestWithIdInUrl(PostRequestWithIdInUrl.java:20)
+
+wrongNameOfFielBearTypedUsingPostRequest(WrongNameOfFieldUsingPostRequest)  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at WrongNameOfFieldUsingPostRequest.wrongNameOfFielBearTypedUsingPostRequest(WrongNameOfFieldUsingPostRequest.java:20)
+
+smallLettersInBearTypeField(SmallLettersInBearTypeField)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at SmallLettersInBearTypeField.smallLettersInBearTypeField(SmallLettersInBearTypeField.java:23)
+
+useOnlySpaces(UseOnlySpacesInValuesOfFields)  Time elapsed: 0.048 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at UseOnlySpacesInValuesOfFields.useOnlySpaces(UseOnlySpacesInValuesOfFields.java:20)
+
+wrongDataBearType(WrongDataBearType)  Time elapsed: 0.031 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at WrongDataBearType.wrongDataBearType(WrongDataBearType.java:20)
+
+changeBearNameWithPutRequest(ChangeBearNameWithPutRequest)  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [500]
+	at ChangeBearNameWithPutRequest.changeBearNameWithPutRequest(ChangeBearNameWithPutRequest.java:20)
+
+noValuesInFields(EmptyValuesInAllFields)  Time elapsed: 0.042 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at EmptyValuesInAllFields.noValuesInFields(EmptyValuesInAllFields.java:20)
+
+nonExistentBear(PutRequestForNonExistentBear)  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: expected [404] but found [500]
+	at PutRequestForNonExistentBear.nonExistentBear(PutRequestForNonExistentBear.java:20)
+
+wrongFieldNameBearName(WrongFieldNameBearName)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at WrongFieldNameBearName.wrongFieldNameBearName(WrongFieldNameBearName.java:20)
+
+wrongNameOfFielBearAgedUsingPutRequest(WrongNameOfFieldBearAgeUsingPutRequest)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [500]
+	at WrongNameOfFieldBearAgeUsingPutRequest.wrongNameOfFielBearAgedUsingPutRequest(WrongNameOfFieldBearAgeUsingPutRequest.java:20)
+
+deleteNonExistentBear(DeleteNonExistentBear)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected [404] but found [200]
+	at DeleteNonExistentBear.deleteNonExistentBear(DeleteNonExistentBear.java:21)
+
+deleteRequestWithoutID(DeleteRequestWithoutID)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at DeleteRequestWithoutID.deleteRequestWithoutID(DeleteRequestWithoutID.java:20)
+

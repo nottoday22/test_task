@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All_tests">
+    <test name="all_tests">
+        <classes>
+            <class name="ValidGetRequest"/>
+            <class name="AddOneMoreField"/>
+            <class name="CapitalLetterInField"/>
+            <class name="EmptyBearType"/>
+            <class name="InvalidDataBearAge"/>
+            <class name="InvalidValueInBearType"/>
+            <class name="PostRequestWithIdInUrl"/>
+            <class name="ValidPostRequest"/>
+            <class name="WrongNameOfFieldUsingPostRequest"/>
+            <class name="SmallLettersInBearTypeField"/>
+            <class name="UseOnlySpacesInValuesOfFields"/>
+            <class name="WrongDataBearType"/>
+            <class name="ChangeBearNameWithPutRequest"/>
+            <class name="EmptyValuesInAllFields"/>
+            <class name="PutRequestForNonExistentBear"/>
+            <class name="WrongFieldNameBearName"/>
+            <class name="WrongNameOfFieldBearAgeUsingPutRequest"/>
+            <class name="DeleteNonExistentBear"/>
+            <class name="DeleteRequestWithoutID"/>
+        </classes>
+    </test>
+</suite>

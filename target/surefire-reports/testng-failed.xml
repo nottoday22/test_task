@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All_tests]">
+  <test name="all_tests(failed)">
+    <classes>
+      <class name="ChangeBearNameWithPutRequest">
+        <methods>
+          <include name="changeBearNameWithPutRequest"/>
+        </methods>
+      </class> <!-- ChangeBearNameWithPutRequest -->
+      <class name="WrongNameOfFieldUsingPostRequest">
+        <methods>
+          <include name="wrongNameOfFielBearTypedUsingPostRequest"/>
+        </methods>
+      </class> <!-- WrongNameOfFieldUsingPostRequest -->
+      <class name="PutRequestForNonExistentBear">
+        <methods>
+          <include name="nonExistentBear"/>
+        </methods>
+      </class> <!-- PutRequestForNonExistentBear -->
+      <class name="SmallLettersInBearTypeField">
+        <methods>
+          <include name="smallLettersInBearTypeField"/>
+        </methods>
+      </class> <!-- SmallLettersInBearTypeField -->
+      <class name="AddOneMoreField">
+        <methods>
+          <include name="addOneMoreFieldInPostRequest"/>
+        </methods>
+      </class> <!-- AddOneMoreField -->
+      <class name="WrongNameOfFieldBearAgeUsingPutRequest">
+        <methods>
+          <include name="wrongNameOfFielBearAgedUsingPutRequest"/>
+        </methods>
+      </class> <!-- WrongNameOfFieldBearAgeUsingPutRequest -->
+      <class name="EmptyValuesInAllFields">
+        <methods>
+          <include name="noValuesInFields"/>
+        </methods>
+      </class> <!-- EmptyValuesInAllFields -->
+      <class name="UseOnlySpacesInValuesOfFields">
+        <methods>
+          <include name="useOnlySpaces"/>
+        </methods>
+      </class> <!-- UseOnlySpacesInValuesOfFields -->
+      <class name="CapitalLetterInField">
+        <methods>
+          <include name="capitalLetterInField"/>
+        </methods>
+      </class> <!-- CapitalLetterInField -->
+      <class name="PostRequestWithIdInUrl">
+        <methods>
+          <include name="postRequestWithIdInUrl"/>
+        </methods>
+      </class> <!-- PostRequestWithIdInUrl -->
+      <class name="ValidGetRequest">
+        <methods>
+          <include name="doPostRequest"/>
+        </methods>
+      </class> <!-- ValidGetRequest -->
+      <class name="WrongFieldNameBearName">
+        <methods>
+          <include name="wrongFieldNameBearName"/>
+        </methods>
+      </class> <!-- WrongFieldNameBearName -->
+      <class name="DeleteRequestWithoutID">
+        <methods>
+          <include name="deleteRequestWithoutID"/>
+        </methods>
+      </class> <!-- DeleteRequestWithoutID -->
+      <class name="InvalidValueInBearType">
+        <methods>
+          <include name="invalidValueInBearType"/>
+        </methods>
+      </class> <!-- InvalidValueInBearType -->
+      <class name="WrongDataBearType">
+        <methods>
+          <include name="wrongDataBearType"/>
+        </methods>
+      </class> <!-- WrongDataBearType -->
+      <class name="InvalidDataBearAge">
+        <methods>
+          <include name="invalidDataBearAge"/>
+        </methods>
+      </class> <!-- InvalidDataBearAge -->
+      <class name="EmptyBearType">
+        <methods>
+          <include name="emptyBearType"/>
+        </methods>
+      </class> <!-- EmptyBearType -->
+      <class name="DeleteNonExistentBear">
+        <methods>
+          <include name="deleteNonExistentBear"/>
+        </methods>
+      </class> <!-- DeleteNonExistentBear -->
+    </classes>
+  </test> <!-- all_tests(failed) -->
+</suite> <!-- Failed suite [All_tests] -->

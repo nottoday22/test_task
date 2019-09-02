@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Put]">
+  <test name="put_requests(failed)">
+    <classes>
+      <class name="ChangeBearNameWithPutRequest">
+        <methods>
+          <include name="changeBearNameWithPutRequest"/>
+        </methods>
+      </class> <!-- ChangeBearNameWithPutRequest -->
+      <class name="EmptyValuesInAllFields">
+        <methods>
+          <include name="noValuesInFields"/>
+        </methods>
+      </class> <!-- EmptyValuesInAllFields -->
+      <class name="WrongNameOfFieldBearAgeUsingPutRequest">
+        <methods>
+          <include name="wrongNameOfFielBearAgedUsingPutRequest"/>
+        </methods>
+      </class> <!-- WrongNameOfFieldBearAgeUsingPutRequest -->
+      <class name="PutRequestForNonExistentBear">
+        <methods>
+          <include name="nonExistentBear"/>
+        </methods>
+      </class> <!-- PutRequestForNonExistentBear -->
+      <class name="WrongFieldNameBearName">
+        <methods>
+          <include name="wrongFieldNameBearName"/>
+        </methods>
+      </class> <!-- WrongFieldNameBearName -->
+    </classes>
+  </test> <!-- put_requests(failed) -->
+</suite> <!-- Failed suite [Put] -->

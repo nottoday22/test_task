@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Get]">
+  <test name="get_requests(failed)">
+    <classes>
+      <class name="ValidGetRequest">
+        <methods>
+          <include name="validGetRequest"/>
+          <include name="doPostRequest"/>
+        </methods>
+      </class> <!-- ValidGetRequest -->
+    </classes>
+  </test> <!-- get_requests(failed) -->
+</suite> <!-- Failed suite [Get] -->
