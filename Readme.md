@@ -27,12 +27,12 @@ To run tests i prefer to use "profiles", there are 5 id profiles which will star
 4. GetRequests
 5. AllTests
 
-If you want to run them you should just write:
+If you want to run them you should just write next commands:
 
-mvn test -P DeleteRequests
-mvn test -P PostRequests
-mvn test -P PutRequests
-mvn test -P GetRequests
-mvn test -P AllTests
+1. mvn test -P DeleteRequests 
+2. mvn test -P PostRequests
+3. mvn test -P PutRequests
+4. mvn test -P GetRequests
+5. mvn test -P AllTests
 
 That's all, thank you.

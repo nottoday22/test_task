@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Delete]">
-  <test name="delete_requests(failed)">
+<suite verbose="0" name="Failed suite [Post]">
+  <test name="post_requests(failed)">
     <classes>
-      <class name="DeleteNonExistentBear">
+      <class name="SmallLettersInBearTypeField">
         <methods>
-          <include name="deleteNonExistentBear"/>
+          <include name="smallLettersInBearTypeField"/>
         </methods>
-      </class> <!-- DeleteNonExistentBear -->
-      <class name="DeleteRequestWithoutID">
+      </class> <!-- SmallLettersInBearTypeField -->
+      <class name="AddOneMoreField">
         <methods>
-          <include name="deleteRequestWithoutID"/>
+          <include name="addOneMoreFieldInPostRequest"/>
         </methods>
-      </class> <!-- DeleteRequestWithoutID -->
+      </class> <!-- AddOneMoreField -->
+      <class name="UseOnlySpacesInValuesOfFields">
+        <methods>
+          <include name="useOnlySpaces"/>
+        </methods>
+      </class> <!-- UseOnlySpacesInValuesOfFields -->
+      <class name="CapitalLetterInField">
+        <methods>
+          <include name="capitalLetterInField"/>
+        </methods>
+      </class> <!-- CapitalLetterInField -->
+      <class name="PostRequestWithIdInUrl">
+        <methods>
+          <include name="postRequestWithIdInUrl"/>
+        </methods>
+      </class> <!-- PostRequestWithIdInUrl -->
+      <class name="InvalidValueInBearType">
+        <methods>
+          <include name="invalidValueInBearType"/>
+        </methods>
+      </class> <!-- InvalidValueInBearType -->
+      <class name="WrongDataBearType">
+        <methods>
+          <include name="wrongDataBearType"/>
+        </methods>
+      </class> <!-- WrongDataBearType -->
+      <class name="EmptyBearType">
+        <methods>
+          <include name="emptyBearType"/>
+        </methods>
+      </class> <!-- EmptyBearType -->
+      <class name="InvalidDataBearAge">
+        <methods>
+          <include name="invalidDataBearAge"/>
+        </methods>
+      </class> <!-- InvalidDataBearAge -->
+      <class name="WrongNameOfFieldUsingPostRequest">
+        <methods>
+          <include name="wrongNameOfFielBearTypedUsingPostRequest"/>
+        </methods>
+      </class> <!-- WrongNameOfFieldUsingPostRequest -->
     </classes>
-  </test> <!-- delete_requests(failed) -->
-</suite> <!-- Failed suite [Delete] -->
+  </test> <!-- post_requests(failed) -->
+</suite> <!-- Failed suite [Post] -->
