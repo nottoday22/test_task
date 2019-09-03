@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Get">
-    <test name="get_requests">
-        <classes>
-            <class name="ValidGetRequest"/>
-        </classes>
-    </test>
-</suite>

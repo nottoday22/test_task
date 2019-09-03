@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Delete">
-    <test name="delete_requests">
-        <classes>
-            <class name="DeleteNonExistentBear"/>
-            <class name="DeleteRequestWithoutID"/>
-        </classes>
-    </test>
-</suite>
